@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="https://betacssjs.chesscomfiles.com/bundles/web/images/webgl_data/three-d/board/textures/board_bases.aa2e4c86.jpg" />
+    <title>Chess Board Layout</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+    }
+    #top, #bottom{
+        display:flex;
+        gap:3rem;
+        margin-left:26rem;
+        margin-top: -15px;
+
+    }
+    #main{
+        border: 6px solid white;
+        margin-left:22rem;
+        display: flex;
+       
+    }
+    #left > h1{
+        height:2.5rem;
+        margin-right:1rem;
+
+    }
+    #right > h1{
+        height:2.5rem;
+        margin-left:1rem;
+
+    }
+    #first, #second{
+        display:flex;
+    }
+    #d1{
+        width:4rem;
+        height:4rem;
+        background-color: rgba(226, 76, 7, 0.349);
+    }
+    #d2{
+        width:4rem;
+        height:4rem;
+        background-color: brown;
+    }
+    img{
+        width:3rem;
+        height:3rem;
+        padding:5px;
+    }
+
+    
+</style>
+<body>
+    <div id="top">
+        <h1>a</h1>
+            <h1>b</h1>
+            <h1>c</h1>
+            <h1>d</h1>
+            <h1>e</h1>
+            <h1>f</h1>
+            <h1>g</h1>
+            <h1>h</h1>
+    </div>
+    <div id="main">
+        <div id="left">
+            <h1>8</h1>
+            <h1>7</h1>
+            <h1>6</h1>
+            <h1>5</h1>
+            <h1>4</h1>
+            <h1>3</h1>
+            <h1>2</h1>
+            <h1>1</h1>
+        </div>
+        <div>
+    <div id="first">
+    <div id="d1"><img src="https://cdn-icons.flaticon.com/png/128/1667/premium/1667159.png?token=exp=1641129075~hmac=cf6f38dd67b30808233695dc2e9e3cf8"/></div>
+    <div id="d2"><img src="https://cdn-icons.flaticon.com/png/128/1342/premium/1342635.png?token=exp=1641129368~hmac=247ec62f0e5c8972e7536f1c46ae7923"/></div>
+    <div id="d1"><img src="https://cdn-icons.flaticon.com/png/128/1626/premium/1626845.png?token=exp=1641130015~hmac=8aaef03688db9378c7f63354e3fdbf29"/></div>
+    <div id="d2"><img src="https://cdn-icons.flaticon.com/png/128/1626/premium/1626843.png?token=exp=1641130015~hmac=f342830ea642596a4f8a8fec04667bed"/></div>
+    <div id="d1"><img src="https://cdn-icons.flaticon.com/png/128/1626/premium/1626844.png?token=exp=1641130015~hmac=6cd342ddca7e2ffd305f2c5d25541e68"/></div>
+    <div id="d2"><img src="https://cdn-icons.flaticon.com/png/128/1626/premium/1626845.png?token=exp=1641130015~hmac=8aaef03688db9378c7f63354e3fdbf29"/></div>
+    <div id="d1"><img src="https://cdn-icons.flaticon.com/png/128/1342/premium/1342635.png?token=exp=1641129368~hmac=247ec62f0e5c8972e7536f1c46ae7923"/></div>
+    <div id="d2"><img src="https://cdn-icons.flaticon.com/png/128/1667/premium/1667159.png?token=exp=1641129075~hmac=cf6f38dd67b30808233695dc2e9e3cf8"/></div>
+</div>
+<div id="second">
+    <div id="d2"><img src="https://cdn-icons-png.flaticon.com/128/3410/3410963.png"/></div>
+    <div id="d1"><img src="https://cdn-icons-png.flaticon.com/128/3410/3410963.png"/></div>
+    <div id="d2"><img src="https://cdn-icons-png.flaticon.com/128/3410/3410963.png"/></div>
+    <div id="d1"><img src="https://cdn-icons-png.flaticon.com/128/3410/3410963.png"/></div>
+    <div id="d2"><img src="https://cdn-icons-png.flaticon.com/128/3410/3410963.png"/></div>
+    <div id="d1"><img src="https://cdn-icons-png.flaticon.com/128/3410/3410963.png"/></div>
+    <div id="d2"><img src="https://cdn-icons-png.flaticon.com/128/3410/3410963.png"/></div>
+    <div id="d1"><img src="https://cdn-icons-png.flaticon.com/128/3410/3410963.png"/></div>
+</div>
+<div id="first">
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+</div>
+<div id="second">
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+</div>
+<div id="first">
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+</div>
+<div id="second">
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+</div>
+<div id="first">
+    <div id="d1"><img src="https://cdn-icons.flaticon.com/png/128/4052/premium/4052115.png?token=exp=1641129949~hmac=3701888bd692a8bcc43565fbffa392db"/></div>
+    <div id="d2"><img src="https://cdn-icons.flaticon.com/png/128/4052/premium/4052115.png?token=exp=1641129949~hmac=3701888bd692a8bcc43565fbffa392db"/></div>
+    <div id="d1"><img src="https://cdn-icons.flaticon.com/png/128/4052/premium/4052115.png?token=exp=1641129949~hmac=3701888bd692a8bcc43565fbffa392db"/></div>
+    <div id="d2"><img src="https://cdn-icons.flaticon.com/png/128/4052/premium/4052115.png?token=exp=1641129949~hmac=3701888bd692a8bcc43565fbffa392db"/></div>
+    <div id="d1"><img src="https://cdn-icons.flaticon.com/png/128/4052/premium/4052115.png?token=exp=1641129949~hmac=3701888bd692a8bcc43565fbffa392db"/></div>
+    <div id="d2"><img src="https://cdn-icons.flaticon.com/png/128/4052/premium/4052115.png?token=exp=1641129949~hmac=3701888bd692a8bcc43565fbffa392db"/></div>
+    <div id="d1"><img src="https://cdn-icons.flaticon.com/png/128/4052/premium/4052115.png?token=exp=1641129949~hmac=3701888bd692a8bcc43565fbffa392db"/></div>
+    <div id="d2"><img src="https://cdn-icons.flaticon.com/png/128/4052/premium/4052115.png?token=exp=1641129949~hmac=3701888bd692a8bcc43565fbffa392db"/></div>
+</div>
+<div id="second">
+    <div id="d2"><img src="https://cdn-icons.flaticon.com/png/128/1002/premium/1002839.png?token=exp=1641129311~hmac=f24a1e85b80ee3fec5763782b2c7a3d6"/></div>
+    <div id="d1"><img src="https://cdn-icons.flaticon.com/png/128/1342/premium/1342584.png?token=exp=1641129429~hmac=3d55c529eb9e8887634e7d9d193a0c7a"/></div>
+    <div id="d2"><img src="https://cdn-icons.flaticon.com/png/128/1626/premium/1626880.png?token=exp=1641130015~hmac=789043c54cf3a8d762b7df3cc4812f10"/></div>
+    <div id="d1"><img src="https://cdn-icons.flaticon.com/png/128/1626/premium/1626878.png?token=exp=1641130015~hmac=806b663ad295e523feaa714db53d285b"/></div>
+    <div id="d2"><img src="https://cdn-icons.flaticon.com/png/128/1626/premium/1626879.png?token=exp=1641130015~hmac=dc85d6d92a2045a8367b3b4d2b809798"/></div>
+    <div id="d1"><img src="https://cdn-icons.flaticon.com/png/128/1626/premium/1626880.png?token=exp=1641130015~hmac=789043c54cf3a8d762b7df3cc4812f10"></div>
+    <div id="d2"><img src="https://cdn-icons.flaticon.com/png/128/1342/premium/1342584.png?token=exp=1641129429~hmac=3d55c529eb9e8887634e7d9d193a0c7a"/></div>
+    <div id="d1"><img src="https://cdn-icons.flaticon.com/png/128/1002/premium/1002839.png?token=exp=1641129311~hmac=f24a1e85b80ee3fec5763782b2c7a3d6"/></div>
+</div>
+</div>
+<div id="right">
+    <h1>8</h1>
+    <h1>7</h1>
+    <h1>6</h1>
+    <h1>5</h1>
+    <h1>4</h1>
+    <h1>3</h1>
+    <h1>2</h1>
+    <h1>1</h1>
+</div>
+</div> 
+
+<div id="bottom">
+    <h1>a</h1>
+        <h1>b</h1>
+        <h1>c</h1>
+        <h1>d</h1>
+        <h1>e</h1>
+        <h1>f</h1>
+        <h1>g</h1>
+        <h1>h</h1>
+</div>
+</body>
+</html>
