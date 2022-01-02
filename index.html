@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="https://betacssjs.chesscomfiles.com/bundles/web/images/webgl_data/three-d/board/textures/board_bases.aa2e4c86.jpg" />
+    <title>Chess Board Layout</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+    }
+    #top, #bottom{
+        display:flex;
+        gap:3rem;
+        margin-left:26rem;
+        margin-top: -15px;
+
+    }
+    #main{
+        border: 6px solid white;
+        margin-left:22rem;
+        display: flex;
+       
+    }
+    #left > h1{
+        height:2.5rem;
+        margin-right:1rem;
+
+    }
+    #right > h1{
+        height:2.5rem;
+        margin-left:1rem;
+
+    }
+    #first, #second{
+        display:flex;
+    }
+    #d1{
+        width:4rem;
+        height:4rem;
+        background-color: rgba(226, 76, 7, 0.349);
+    }
+    #d2{
+        width:4rem;
+        height:4rem;
+        background-color: brown;
+    }
+    img{
+        width:3rem;
+        height:3rem;
+        padding:5px;
+    }
+
+    
+</style>
+<body>
+    <div id="top">
+        <h1>a</h1>
+            <h1>b</h1>
+            <h1>c</h1>
+            <h1>d</h1>
+            <h1>e</h1>
+            <h1>f</h1>
+            <h1>g</h1>
+            <h1>h</h1>
+    </div>
+    <div id="main">
+        <div id="left">
+            <h1>8</h1>
+            <h1>7</h1>
+            <h1>6</h1>
+            <h1>5</h1>
+            <h1>4</h1>
+            <h1>3</h1>
+            <h1>2</h1>
+            <h1>1</h1>
+        </div>
+        <div>
+    <div id="first">
+    <div id="d1"><img src="3.png"/></div>
+    <div id="d2"><img src="4.png"/></div>
+    <div id="d1"><img src="5.png"/></div>
+    <div id="d2"><img src="6.png"/></div>
+    <div id="d1"><img src="7.png"/></div>
+    <div id="d2"><img src="5.png"/></div>
+    <div id="d1"><img src="4.png"/></div>
+    <div id="d2"><img src="3.png"/></div>
+</div>
+<div id="second">
+    <div id="d2"><img src="1.png"/></div>
+    <div id="d1"><img src="1.png"/></div>
+    <div id="d2"><img src="1.png"/></div>
+    <div id="d1"><img src="1.png"/></div>
+    <div id="d2"><img src="1.png"/></div>
+    <div id="d1"><img src="1.png"/></div>
+    <div id="d2"><img src="1.png"/></div>
+    <div id="d1"><img src="1.png"/></div>
+</div>
+<div id="first">
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+</div>
+<div id="second">
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+</div>
+<div id="first">
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+</div>
+<div id="second">
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d1"></div>
+</div>
+<div id="first">
+    <div id="d1"><img src="2.png"/></div>
+    <div id="d2"><img src="2.png"/></div>
+    <div id="d1"><img src="2.png"/></div>
+    <div id="d2"><img src="2.png"/></div>
+    <div id="d1"><img src="2.png"/></div>
+    <div id="d2"><img src="2.png"/></div>
+    <div id="d1"><img src="2.png"/></div>
+    <div id="d2"><img src="2.png"/></div>
+</div>
+<div id="second">
+    <div id="d2"><img src="8.png"/></div>
+    <div id="d1"><img src="9.png"/></div>
+    <div id="d2"><img src="10.png"/></div>
+    <div id="d1"><img src="11.png"/></div>
+    <div id="d2"><img src="12.png"/></div>
+    <div id="d1"><img src="10.png"></div>
+    <div id="d2"><img src="9.png"/></div>
+    <div id="d1"><img src="8.png"/></div>
+</div>
+</div>
+<div id="right">
+    <h1>8</h1>
+    <h1>7</h1>
+    <h1>6</h1>
+    <h1>5</h1>
+    <h1>4</h1>
+    <h1>3</h1>
+    <h1>2</h1>
+    <h1>1</h1>
+</div>
+</div> 
+
+<div id="bottom">
+    <h1>a</h1>
+        <h1>b</h1>
+        <h1>c</h1>
+        <h1>d</h1>
+        <h1>e</h1>
+        <h1>f</h1>
+        <h1>g</h1>
+        <h1>h</h1>
+</div>
+</body>
+</html>
